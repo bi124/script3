@@ -16,7 +16,7 @@ getgenv().TweenSpeed = 315 -- 350 max or Get Tp Back
 
  getgenv().Setting = { -- Select Weapon, Self Explain
 
-        ["Melee"] = {["Enable"] = true,["Delay"] = 3,
+        ["Melee"] = {["Enable"] = true,["Delay"] = 2,
 
           ["Skills"] = {
 
@@ -30,7 +30,7 @@ getgenv().TweenSpeed = 315 -- 350 max or Get Tp Back
 
         },
 
-        ["Blox Fruit"] = {["Enable"] = true, ["Delay"] = 4,
+        ["Blox Fruit"] = {["Enable"] = true, ["Delay"] = 3,
 
             ["Skills"] = {
 
@@ -52,9 +52,9 @@ getgenv().TweenSpeed = 315 -- 350 max or Get Tp Back
 
             ["Skills"] = {
 
-                ["Z"] = {["Enable"] = true,  ["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
+                ["Z"] = {["Enable"] = true,  ["HoldTime"] = 0.1,["TimeToNextSkill"] = 0,},
 
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.5, ["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1, ["TimeToNextSkill"] = 0,},
 
             },
 
@@ -64,9 +64,9 @@ getgenv().TweenSpeed = 315 -- 350 max or Get Tp Back
 
             ["Skills"] = {
 
-                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
+                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.1,["TimeToNextSkill"] = 0,},
 
-                ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,
+                ["X"] = {["Enable"] = true,["HoldTime"] = 0.1,["TimeToNextSkill"] = 0,
 
                 },
 
